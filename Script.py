@@ -10,7 +10,7 @@ import subprocess
 from moviepy.editor import *
 
 # Connect to MongoDB
-client = MongoClient('mongodb+srv://TheFernDB:TheFern9129@cluster0.kqexskg.mongodb.net/test')
+client = MongoClient('mongodb+srv://TheFernDB:*password*')
 db = client['collection1']
 collection1 = db['collection1']
 collection2 = db['collection2']
